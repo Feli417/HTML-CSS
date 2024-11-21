@@ -1,1 +1,59 @@
+HTML es fundamental para la creación de documentos web, proporcionando la estructura básica que se mejora y estiliza con CSS y se dinamiza con JavaScript. 
+Entender las reglas de nombramiento de archivos y la importancia del archivo index.html es esencial para el desarrollo de sitios web organizados y accesibles.
+
+<html>: La raíz del documento HTML.
+
+<head>: Contiene metadatos sobre el documento, como el título y enlaces a hojas de estilo.
+
+<title>: Define el título del documento que se muestra en la pestaña del navegador.
+
+<body>: Contiene todo el contenido visible de la página web.
+
+<header>: Define un encabezado para el documento o una sección.
+
+<nav>: Contiene enlaces de navegación.
+
+<main>: Representa el contenido principal del documento. ( Por ejemplo: Si armamos una web de venta de autos, el contenido principal serían los autos que se encuentran en venta).
+
+<section>: Define una sección en el documento.
+
+<article>: Representa contenido autónomo.
+
+<footer>: Define un pie de página para el documento o una sección.
+
+Las etiquetas de HTML son comandos que indican al navegador cómo debe mostrar el contenido en la página web.
+Cada etiqueta tiene un propósito específico y se escribe entre corchetes angulares (< >).
+Ej:
+<p>Este es un párrafo.</p> párrafo
+Etiquetas Auto-cerradas
+Algunas etiquetas no tienen contenido y se cierran por sí mismas, como <img /> para imágenes y <br /> para saltos de línea.
+
+Estructura básica: 
++++++
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Título de la Página</title>
+</head>
+<body>
+<h1>Encabezado Principal</h1>
+<p>Este es un párrafo de ejemplo.</p>
+</body>
+</html>
+++++++
+Descripción de la Estructura
+<!DOCTYPE html>: Declara el tipo de documento y la versión de HTML.
+
+<html>: La raíz del documento HTML.
+
+<head>: Contiene metadatos y enlaces a recursos externos.
+<meta>: Proporciona metadatos como la codificación de caracteres y la configuración de la vista.
+<meta name="description" content="Descripción de la página web">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+name y content: Proporcionan información como la descripción de la página y las palabras clave.
+<meta charset="UTF-8"> Define la codificación de caracteres del documento
+
+<body>: Contiene el contenido visible de la página web.
 
